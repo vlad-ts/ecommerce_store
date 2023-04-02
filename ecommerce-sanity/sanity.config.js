@@ -8,7 +8,7 @@ export default defineConfig({
   title: 'ecommerce-sanity',
 
   projectId: 'ayuk6mt4',
-  dataset: 'ecommerce-sanity',
+  dataset: 'production',
 
   plugins: [deskTool(), visionTool()],
 
