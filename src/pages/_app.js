@@ -1,8 +1,10 @@
+import React, {useEffect} from 'react'
 import "@/styles/globals.css";
 import { Toaster } from "react-hot-toast";
 import { Layout } from "../components";
-import { StateContext } from "@/context/stateContext";
+import { StateContext } from "@/context/StateContext";
 export default function App({ Component, pageProps }) {
+
   return (
     <StateContext>
       <Layout>
