@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 import { TiDeleteOutline } from "react-icons/ti";
 
-import { useStateContext } from "../context/StateContext";
+import { useStateContext } from "@/context/StateContext";
 import { urlFor } from "../lib/client";
 
 const Cart = () => {
@@ -21,8 +21,6 @@ const Cart = () => {
     toggleCartItemQuanitity,
     onRemove,
   } = useStateContext();
-
-  
 
   return (
     <div className="cart-wrapper" ref={cartRef}>

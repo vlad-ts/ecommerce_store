@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { client } from "../lib/client";
-import { useStateContext } from "@/context/StateContext";
 
 import { Product, FooterBanner, HeroBanner } from "../components";
 
