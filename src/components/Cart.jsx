@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai";
 import { TiDeleteOutline } from "react-icons/ti";
 
-import { useStateContext } from "@/context/StateContext";
+import { useStateContext } from "C:/Vlad/React_projects/ecommerce_store/src/context/StateContext";
 import { urlFor } from "../lib/client";
 
 const Cart = () => {
